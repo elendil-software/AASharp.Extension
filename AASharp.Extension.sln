@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AASharp.Extension", "Src\AASharp.Extension\AASharp.Extension.csproj", "{9FBD793E-F614-473D-A2FC-49B409EDD8D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AASharp.Extension.Test", "Test\AASharp.Extension.Test\AASharp.Extension.Test.csproj", "{610B38D6-2C95-42CC-A7E5-6319EFCF8DEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FBD793E-F614-473D-A2FC-49B409EDD8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBD793E-F614-473D-A2FC-49B409EDD8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBD793E-F614-473D-A2FC-49B409EDD8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBD793E-F614-473D-A2FC-49B409EDD8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610B38D6-2C95-42CC-A7E5-6319EFCF8DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610B38D6-2C95-42CC-A7E5-6319EFCF8DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610B38D6-2C95-42CC-A7E5-6319EFCF8DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610B38D6-2C95-42CC-A7E5-6319EFCF8DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EDBF604-9631-42C9-AF18-C9448CC6A4E6}
+	EndGlobalSection
+EndGlobal
