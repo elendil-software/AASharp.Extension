@@ -4,6 +4,17 @@
     <TargetFrameworks>netstandard2.0;net40;net45</TargetFrameworks>
     <RootNamespace>AASharp.Extension</RootNamespace>
     <AssemblyName>AASharp.Extension</AssemblyName>
+    <Version>0.1.0</Version>
+    <Authors>Julien Tschäppät</Authors>
+    <Company>Julien Tschäppät</Company>
+    <Copyright>Julien Tschäppät</Copyright>
+    <PackageLicenseUrl>https://github.com/elendil-software/AASharp.Extension/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/elendil-software/AASharp.Extension</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/elendil-software/AASharp.Extension</RepositoryUrl>
+    <PackageTags>Astronomy,Algorithm</PackageTags>
+    <PackageReleaseNotes>https://github.com/elendil-software/AASharp.Extension/releases</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
