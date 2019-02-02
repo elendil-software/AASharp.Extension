@@ -19,7 +19,7 @@ namespace AASharp.Extension.Constellations
     ///Fortran program.f, made by FO @ CDS  (francois@simbad.u-strasbg.fr)  
     ///in November 1996.
     /// </summary>
-    public class CoordinatesToConstellation
+    public static class CoordinatesToConstellation
     {
         /// <summary>
         /// 
