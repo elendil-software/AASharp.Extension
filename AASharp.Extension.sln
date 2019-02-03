@@ -5,7 +5,14 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AASharp.Extension", "Src\AASharp.Extension\AASharp.Extension.csproj", "{9FBD793E-F614-473D-A2FC-49B409EDD8D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AASharp.Extension.Test", "Test\AASharp.Extension.Test\AASharp.Extension.Test.csproj", "{610B38D6-2C95-42CC-A7E5-6319EFCF8DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AASharp.Extension.Test", "Test\AASharp.Extension.Test\AASharp.Extension.Test.csproj", "{610B38D6-2C95-42CC-A7E5-6319EFCF8DEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{927B4118-97D8-47ED-8136-2BD58D250561}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
