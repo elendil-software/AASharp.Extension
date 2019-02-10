@@ -21,7 +21,7 @@ These are feature that are not available in the NuGet package. They are availabl
 
 This project is available as a NuGet package
 
-    Install-Package IPX800cs
+    Install-Package AASharp.Extension
 
 ## Contributions
 
