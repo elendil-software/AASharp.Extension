@@ -32,7 +32,7 @@ jobs:
       run: nuget source Add -Name github -Source ${{ env.nuget-url }} -Username ${{ env.nuget-user }} -Password ${{ env.nuget-token }} -StorePasswordInClearText
       env:
         nuget-url: https://nuget.pkg.github.com/elendil-software/index.json
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        nuget-token: ${{ secrets.GITHUB_TOKEN }}
         nuget-user: ${{ secrets.NUGET_GITHUB_USER }}
         
     - name: Execute GitVersion - Dev
@@ -48,7 +48,7 @@ jobs:
     
     - name: Build
       run: msbuild /t:Rebuild /p:Configuration=Release
-      
+
 
     - name: NuGet Push
       if: ${{ github.event.inputs.create-release == 'true' || github.event.inputs.push-nuget == 'true' }}
@@ -79,7 +79,8 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         artifactErrorsFailBuild: true
+        draft: true
         body: "${{steps.build_changelog.outputs.changelog}}"
         tag: "${{ env.GitVersion_SemVer }}"
-        artifacts: "**/*.nupkg"
+        artifacts: "**/*.nupkg,CHANGELOG.md"
         token: ${{ secrets.GITHUB_TOKEN }}
