@@ -2,7 +2,7 @@
 
 AASharp.Extension provides helper classes and methods allowing using [AASharp](https://github.com/jsauve/AASharp) more easily.
 
-NOTICE: no longer maintained. ⚠️
+## NOTICE: no longer maintained. ⚠️
 
 This project isn't maintained any more.
 
